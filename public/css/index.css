@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -562,20 +562,16 @@ video {
   width: 16rem;
 }
 
-.bg-red-200 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-Montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
