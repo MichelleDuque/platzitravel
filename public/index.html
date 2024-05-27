@@ -6,10 +6,43 @@
       <link href="./css/index.css" rel="stylesheet">
     </head>
     <body>
-      <h1 class="font-Montserrat text-xl">
-        Hello world!
-      </h2>
-      <div class="w-64 h-64 bg-primary">
-      </div>
+      <nav>
+      </nav>
+      <div id="tab_bar"></div>
+      <section class="w-full h-screen">
+        <div id="home">
+          <div class="w-full h-3/4">
+            <div class="w-full h-full flex flex-col absolute space-y-80 py-4 items-center">
+              <input class="outline outline-none p-3 rounded-full shadow-sm" type="search" placeholder="San Francisco">
+              <button class="text-xl text-primary bg-white font-semibold w-2/4 p-4 rounded-full shadow-md">Explorar</button>
+            </div>
+            <div class="w-full h-full">
+              <img src="./img/sanFrancisco.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="recomended" class="p-6">
+          <p class="text-2xl text-primary font-semibold">Our Recommendations</p>
+          <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6">
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+              <div class="bg-secondary w-full h-2/5 rounded-b-lg">
+                <p class="text-white font-bold text-xl px-4 py-2">Norway</p>
+                <p class="text-white text-md px-4">Beautiful Landscape</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
+              <div class="bg-white w-full h-2/5 rounded-b-lg">
+                <p class="text-terciary font-bold text-xl px-4 py-2">New York</p>
+                <p class="text-terciary text-md px-4">Concrete Jungle</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="sells_feature"></div>
+      </section>
+      <footer></footer>
     </body>
     </html>
