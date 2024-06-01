@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw:build": "tailwind -i ./src/css/index.css -o ./public/css/index.css --watch"
+    "tw:build": "tailwind -i ./src/css/index.css -o ./public/css/index.css --watch",
+    "tw:dev": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch",
+    "tw:prod": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify"
   },
   "author": "Michelle Duque <michelled_1994@hotmail.com>",
   "license": "MIT",
